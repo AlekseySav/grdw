@@ -1,5 +1,9 @@
 ﻿  main.cpp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
-  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  12 of 12 functions (100.0%) were compiled, the rest were copied from previous compilation.
+    11 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\development\pleng\Engine\bin\Win32\Release\vc120.pdb'; linking object as if no debug info
   Engine.vcxproj -> C:\development\pleng\Engine\\bin\Win32\Release\Engine.exe
